@@ -13,6 +13,13 @@
 		183A68B01F394A3400203DDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A68AE1F394A3400203DDD /* Main.storyboard */; };
 		183A68B21F394A3400203DDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183A68B11F394A3400203DDD /* Assets.xcassets */; };
 		183A68B51F394A3400203DDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183A68B31F394A3400203DDD /* LaunchScreen.storyboard */; };
+		183A68D81F395E2000203DDD /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D01F395E2000203DDD /* demo.png */; };
+		183A68D91F395E2000203DDD /* ring_assets_cate_clicked.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D21F395E2000203DDD /* ring_assets_cate_clicked.wav */; };
+		183A68DA1F395E2000203DDD /* ring_game_boxbg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D31F395E2000203DDD /* ring_game_boxbg.mp3 */; };
+		183A68DB1F395E2000203DDD /* ring_game_boxpush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D41F395E2000203DDD /* ring_game_boxpush.mp3 */; };
+		183A68DC1F395E2000203DDD /* ring_radio_guesssuccess.amr in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D51F395E2000203DDD /* ring_radio_guesssuccess.amr */; };
+		183A68DD1F395E2000203DDD /* ring_work_clock_succed.wav in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D61F395E2000203DDD /* ring_work_clock_succed.wav */; };
+		183A68DE1F395E2000203DDD /* SpecSelectCard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 183A68D71F395E2000203DDD /* SpecSelectCard.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		183A68B11F394A3400203DDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		183A68B41F394A3400203DDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		183A68B61F394A3400203DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183A68D01F395E2000203DDD /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
+		183A68D21F395E2000203DDD /* ring_assets_cate_clicked.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ring_assets_cate_clicked.wav; sourceTree = "<group>"; };
+		183A68D31F395E2000203DDD /* ring_game_boxbg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring_game_boxbg.mp3; sourceTree = "<group>"; };
+		183A68D41F395E2000203DDD /* ring_game_boxpush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ring_game_boxpush.mp3; sourceTree = "<group>"; };
+		183A68D51F395E2000203DDD /* ring_radio_guesssuccess.amr */ = {isa = PBXFileReference; lastKnownFileType = file; path = ring_radio_guesssuccess.amr; sourceTree = "<group>"; };
+		183A68D61F395E2000203DDD /* ring_work_clock_succed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ring_work_clock_succed.wav; sourceTree = "<group>"; };
+		183A68D71F395E2000203DDD /* SpecSelectCard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SpecSelectCard.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 		183A68A41F394A3400203DDD /* BoxPush */ = {
 			isa = PBXGroup;
 			children = (
+				183A68CF1F395E2000203DDD /* Images */,
+				183A68D11F395E2000203DDD /* Sounds */,
 				183A68A81F394A3400203DDD /* AppDelegate.h */,
 				183A68A91F394A3400203DDD /* AppDelegate.m */,
 				183A68AB1F394A3400203DDD /* ViewController.h */,
@@ -77,6 +93,27 @@
 				183A68A61F394A3400203DDD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183A68CF1F395E2000203DDD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				183A68D01F395E2000203DDD /* demo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		183A68D11F395E2000203DDD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				183A68D21F395E2000203DDD /* ring_assets_cate_clicked.wav */,
+				183A68D31F395E2000203DDD /* ring_game_boxbg.mp3 */,
+				183A68D41F395E2000203DDD /* ring_game_boxpush.mp3 */,
+				183A68D51F395E2000203DDD /* ring_radio_guesssuccess.amr */,
+				183A68D61F395E2000203DDD /* ring_work_clock_succed.wav */,
+				183A68D71F395E2000203DDD /* SpecSelectCard.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +147,7 @@
 				TargetAttributes = {
 					183A68A11F394A3400203DDD = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = S86KA93GD7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +175,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183A68D81F395E2000203DDD /* demo.png in Resources */,
+				183A68DE1F395E2000203DDD /* SpecSelectCard.mp3 in Resources */,
+				183A68DD1F395E2000203DDD /* ring_work_clock_succed.wav in Resources */,
+				183A68DA1F395E2000203DDD /* ring_game_boxbg.mp3 in Resources */,
+				183A68DB1F395E2000203DDD /* ring_game_boxpush.mp3 in Resources */,
 				183A68B51F394A3400203DDD /* LaunchScreen.storyboard in Resources */,
+				183A68D91F395E2000203DDD /* ring_assets_cate_clicked.wav in Resources */,
 				183A68B21F394A3400203DDD /* Assets.xcassets in Resources */,
+				183A68DC1F395E2000203DDD /* ring_radio_guesssuccess.amr in Resources */,
 				183A68B01F394A3400203DDD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +317,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S86KA93GD7;
 				INFOPLIST_FILE = BoxPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yg45.BoxPush;
@@ -283,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S86KA93GD7;
 				INFOPLIST_FILE = BoxPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yg45.BoxPush;
@@ -309,6 +356,7 @@
 				183A68BB1F394A3400203DDD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
